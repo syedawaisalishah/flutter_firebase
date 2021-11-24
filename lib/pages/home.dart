@@ -11,7 +11,7 @@ class _myHomepageState extends State<myHomepage> {
     return Scaffold(
       appBar: AppBar(
           title: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           Text('WhatsApp'),
           Icon(
