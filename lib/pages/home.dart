@@ -8,7 +8,7 @@ class _myHomepageState extends State<myHomepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(title: Text('Flutter crud Firestore')),
     );
   }
 }
