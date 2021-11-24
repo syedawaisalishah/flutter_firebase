@@ -13,16 +13,7 @@ class _myHomepageState extends State<myHomepage> {
           title: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Text('Flutter Crud Firestore'),
-          ElevatedButton(
-            onPressed: () => {
-              Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => addstudentpage(),
-                  ))
-            },
-          ),
+          Text('WhatsApp')
         ],
       )),
     );
