@@ -16,12 +16,12 @@ class _myHomepageState extends State<myHomepage> {
           Text('WhatsApp'),
           Icon(
             Icons.search,
-            color: Colors.red,
+            color: Colors.white,
             size: 30.0,
           ),
           Icon(
             Icons.camera,
-            color: Colors.red,
+            color: Colors.white,
             size: 30.0,
           ),
         ],
