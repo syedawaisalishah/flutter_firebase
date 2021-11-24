@@ -28,52 +28,7 @@ class _liststudentsState extends State<liststudents> {
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
-                            fontSize: 20.0,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                  TableCell(
-                    child: Container(
-                      color: Colors.orange,
-                      child: Center(
-                        child: Text(
-                          'Name',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 20.0,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                  TableCell(
-                    child: Container(
-                      color: Colors.orange,
-                      child: Center(
-                        child: Text(
-                          'Name',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 20.0,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                  TableCell(
-                    child: Container(
-                      color: Colors.orange,
-                      child: Center(
-                        child: Text(
-                          'Name',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 20.0,
+                            fontSize: 10.0,
                           ),
                         ),
                       ),
