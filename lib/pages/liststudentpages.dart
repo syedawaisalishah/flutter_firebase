@@ -8,7 +8,24 @@ class _liststudentsState extends State<liststudents> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text('List student is what we need'),
-    );
+        margin: EdgeInsets.symmetric(horizontal: 10.0, vertical: 20.0),
+        child: SingleChildScrollView(
+            scrollDirection: Axis.vertical,
+            child: Table(
+              border: TableBorder.all(),
+              columnWidths: const <int, TableColumnWidth>{
+                1: FixedColumnWidth(200),
+              },
+              defaultVerticalAlignment: TableCellVerticalAlignment.middle,
+              children: [
+                TableRow(children: [
+                  TableCell(
+                    child: Container(
+                      child: Center(child: Text('Name')),
+                    ),
+                  )
+                ])
+              ],
+            )));
   }
 }
