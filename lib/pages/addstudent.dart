@@ -7,11 +7,8 @@ class addstudentpage extends StatefulWidget {
 class _addstudentpageState extends State<addstudentpage> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text(
-        'awais',
-        style: TextStyle(color: Colors.black),
-      ),
+    return Scaffold(
+      body: Containter(child: Text('Awais')),
     );
   }
 }
