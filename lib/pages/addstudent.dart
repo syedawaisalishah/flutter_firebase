@@ -13,7 +13,7 @@ class _addstudentpageState extends State<addstudentpage> {
         children: [
           ElevatedButton(
             child: Text(
-              'Add',
+              'Back to home',
               style: TextStyle(fontSize: 20.0),
             ),
             onPressed: () {
