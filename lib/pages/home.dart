@@ -11,19 +11,19 @@ class _myHomepageState extends State<myHomepage> {
     return Scaffold(
       appBar: AppBar(
           title: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Text('WhatsApp'),
-          Icon(
-            Icons.search,
-            color: Colors.white,
-            size: 30.0,
-          ),
-          Icon(
-            Icons.camera,
-            color: Colors.white,
-            size: 30.0,
-          ),
+          Text('Flutter Crud Firestore'),
         ],
+      )),
+      body: Container(
+          child: ElevatedButton(
+        onPressed: () => {
+          Navigator.push(
+            context,
+            MaterialPageRouter(builder: (context) => addstudentpage()),
+          )
+        },
       )),
     );
   }
