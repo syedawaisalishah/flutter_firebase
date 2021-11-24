@@ -39,7 +39,7 @@ class _liststudentsState extends State<liststudents> {
                       color: Colors.orange,
                       child: Center(
                         child: Text(
-                          'Name',
+                          'Email',
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
