@@ -7,6 +7,8 @@ class myHomepage extends StatefulWidget {
 class _myHomepageState extends State<myHomepage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(),
+    );
   }
 }
