@@ -13,7 +13,12 @@ class _myHomepageState extends State<myHomepage> {
           title: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Text('WhatsApp')
+          Text('WhatsApp'),
+          Icon(
+            Icons.search,
+            color: Colors.red,
+            size: 30.0,
+          ),
         ],
       )),
     );
