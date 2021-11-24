@@ -8,7 +8,13 @@ class _myHomepageState extends State<myHomepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Flutter crud Firestore')),
+      appBar: AppBar(
+          title: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Text('Flutter Crud Firestore'),
+        ],
+      )),
     );
   }
 }
