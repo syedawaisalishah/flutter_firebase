@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Firestore',
       // Application theme data, you can set the colors for the application as
       // you want
-      theme: ThemeData(primaryColor: Color(0xff075e54), accentColor: color(0xff25d366)),
+      theme: ThemeData(primaryColor: Color(0xff075e54), accentColor: Color(0xff25d366)),
       // A widget which will be started on application startup
       home: myHomepage(),
     );
