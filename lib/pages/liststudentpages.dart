@@ -7,9 +7,8 @@ class liststudents extends StatefulWidget {
 class _liststudentsState extends State<liststudents> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        body: Container(
+    return Container(
       child: Text('List student'),
-    ));
+    );
   }
 }
