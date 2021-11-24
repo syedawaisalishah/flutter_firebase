@@ -11,15 +11,7 @@ class _addstudentpageState extends State<addstudentpage> {
     return Container(
       child: Column(
         children: [
-          ElevatedButton(
-            child: Text(
-              'Back to home',
-              style: TextStyle(fontSize: 20.0),
-            ),
-            onPressed: () {
-              Navigator.push(context, MaterialPageRoute(builder: (context) => myHomepage()));
-            },
-          ),
+          Text('add'),
         ],
       ),
     );
