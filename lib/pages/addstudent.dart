@@ -9,8 +9,9 @@ class _addstudentpageState extends State<addstudentpage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        appbar: AppBar(title: Text('Add')),
         body: Container(
-      child: Text('add'),
-    ));
+          child: Text('add'),
+        ));
   }
 }
