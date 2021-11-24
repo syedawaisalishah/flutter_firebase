@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'addstudent.dart';
+import 'liststudentpages.dart';
 
 class myHomepage extends StatefulWidget {
   _myHomepageState createState() => _myHomepageState();
@@ -25,6 +26,7 @@ class _myHomepageState extends State<myHomepage> {
           ),
         ],
       )),
+      body: liststudents(),
     );
   }
 }
