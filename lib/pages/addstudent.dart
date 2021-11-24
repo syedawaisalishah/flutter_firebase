@@ -10,7 +10,7 @@ class _addstudentpageState extends State<addstudentpage> {
     return Container(
       child: Text(
         'awais',
-        style: TextStyle(color: Colors.accents),
+        style: TextStyle(color: Colors.black),
       ),
     );
   }
