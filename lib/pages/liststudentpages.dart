@@ -25,7 +25,7 @@ class _liststudentsState extends State<liststudents> {
                       child: Center(
                         child: Text(
                           'Name',
-                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 20.0),
                         ),
                       ),
                     ),
