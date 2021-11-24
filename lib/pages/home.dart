@@ -14,16 +14,16 @@ class _myHomepageState extends State<myHomepage> {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Text('Flutter Crud Firestore'),
+          FlatButton(
+            child: Text(
+              'LogIn',
+              style: TextStyle(fontSize: 20.0),
+            ),
+            color: Colors.blueAccent,
+            textColor: Colors.white,
+            onPressed: () {},
+          ),
         ],
-      )),
-      body: Container(
-          child: ElevatedButton(
-        onPressed: () => {
-          Navigator.push(
-            context,
-            MaterialPageRouter(builder: (context) => addstudentpage()),
-          )
-        },
       )),
     );
   }
