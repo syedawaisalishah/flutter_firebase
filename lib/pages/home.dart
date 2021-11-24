@@ -16,10 +16,10 @@ class _myHomepageState extends State<myHomepage> {
           Text('Flutter Crud Firestore'),
           FlatButton(
             child: Text(
-              'LogIn',
+              'Add',
               style: TextStyle(fontSize: 20.0),
             ),
-            color: Colors.blueAccent,
+            color: Colors.red,
             textColor: Colors.white,
             onPressed: () {},
           ),
