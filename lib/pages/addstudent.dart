@@ -9,11 +9,7 @@ class _addstudentpageState extends State<addstudentpage> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Column(
-        children: [
-          Text('add'),
-        ],
-      ),
+      child: Text('add'),
     );
   }
 }
