@@ -19,8 +19,12 @@ class _myHomepageState extends State<myHomepage> {
             color: Colors.red,
             size: 30.0,
           ),
+          Icon(
+            Icons.camera,
+            color: Colors.red,
+            size: 30.0,
+          ),
         ],
       )),
     );
   }
-}
