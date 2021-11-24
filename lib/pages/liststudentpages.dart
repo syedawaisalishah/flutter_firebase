@@ -28,7 +28,37 @@ class _liststudentsState extends State<liststudents> {
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
-                            fontSize: 10.0,
+                            fontSize: 15.0,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Container(
+                      color: Colors.orange,
+                      child: Center(
+                        child: Text(
+                          'Name',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 15.0,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Container(
+                      color: Colors.orange,
+                      child: Center(
+                        child: Text(
+                          'phone',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 15.0,
                           ),
                         ),
                       ),
