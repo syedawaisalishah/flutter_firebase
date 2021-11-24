@@ -22,7 +22,7 @@ class _liststudentsState extends State<liststudents> {
                   TableCell(
                     child: Container(
                       color: Colors.orange,
-                      child: Center(child: Text('Name')),
+                      child: Center(child: Text('Name'), style: TextStyle(color: Colors.White)),
                     ),
                   )
                 ])
