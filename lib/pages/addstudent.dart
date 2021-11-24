@@ -8,7 +8,7 @@ class _addstudentpageState extends State<addstudentpage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Containter(child: Text('Awais')),
+      body: Container(child: Text('Awais')),
     );
   }
 }
