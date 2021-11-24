@@ -8,18 +8,20 @@ class addstudentpage extends StatefulWidget {
 class _addstudentpageState extends State<addstudentpage> {
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        ElevatedButton(
-          child: Text(
-            'Back to home',
-            style: TextStyle(fontSize: 20.0),
+    return Container(
+      child: Column(
+        children: [
+          ElevatedButton(
+            child: Text(
+              'Back to home',
+              style: TextStyle(fontSize: 20.0),
+            ),
+            onPressed: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) => myHomepage()));
+            },
           ),
-          onPressed: () {
-            Navigator.push(context, MaterialPageRoute(builder: (context) => myHomepage()));
-          },
-        ),
-      ],
+        ],
+      ),
     );
   }
 }
