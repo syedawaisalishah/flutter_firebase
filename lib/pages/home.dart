@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'addstudent.dart';
 
 class myHomepage extends StatefulWidget {
   _myHomepageState createState() => _myHomepageState();
@@ -13,6 +14,15 @@ class _myHomepageState extends State<myHomepage> {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Text('Flutter Crud Firestore'),
+          new ElevatedButton(
+            onPressed: () => {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => addstudentpage(),
+                  ))
+            },
+          )
         ],
       )),
     );
