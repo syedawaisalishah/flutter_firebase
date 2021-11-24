@@ -7,6 +7,8 @@ class addstudentpage extends StatefulWidget {
 class _addstudentpageState extends State<addstudentpage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      child: Text('awais'),
+    );
   }
 }
