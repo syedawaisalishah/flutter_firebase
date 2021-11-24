@@ -74,7 +74,7 @@ class _liststudentsState extends State<liststudents> {
                         color: Colors.orange,
                         child: Center(
                           child: Text(
-                            'Name',
+                            'Syed Awais Ali Shah',
                             style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
@@ -89,7 +89,7 @@ class _liststudentsState extends State<liststudents> {
                         color: Colors.orange,
                         child: Center(
                           child: Text(
-                            'Email',
+                            'syedawaisalishah46@gmail.com',
                             style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
@@ -104,7 +104,7 @@ class _liststudentsState extends State<liststudents> {
                         color: Colors.orange,
                         child: Center(
                           child: Text(
-                            'phone',
+                            '03169691091',
                             style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
