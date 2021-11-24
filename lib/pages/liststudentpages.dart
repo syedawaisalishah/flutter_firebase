@@ -18,53 +18,104 @@ class _liststudentsState extends State<liststudents> {
               },
               defaultVerticalAlignment: TableCellVerticalAlignment.middle,
               children: [
-                TableRow(children: [
-                  TableCell(
-                    child: Container(
-                      color: Colors.orange,
-                      child: Center(
-                        child: Text(
-                          'Name',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 15.0,
+                TableRow(
+                  children: [
+                    TableCell(
+                      child: Container(
+                        color: Colors.orange,
+                        child: Center(
+                          child: Text(
+                            'Name',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 15.0,
+                            ),
                           ),
                         ),
                       ),
                     ),
-                  ),
-                  TableCell(
-                    child: Container(
-                      color: Colors.orange,
-                      child: Center(
-                        child: Text(
-                          'Email',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 15.0,
+                    TableCell(
+                      child: Container(
+                        color: Colors.orange,
+                        child: Center(
+                          child: Text(
+                            'Email',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 15.0,
+                            ),
                           ),
                         ),
                       ),
                     ),
-                  ),
-                  TableCell(
-                    child: Container(
-                      color: Colors.orange,
-                      child: Center(
-                        child: Text(
-                          'phone',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 15.0,
+                    TableCell(
+                      child: Container(
+                        color: Colors.orange,
+                        child: Center(
+                          child: Text(
+                            'phone',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 15.0,
+                            ),
                           ),
                         ),
                       ),
                     ),
-                  ),
-                ])
+                  ],
+                ),
+                TableRow(
+                  children: [
+                    TableCell(
+                      child: Container(
+                        color: Colors.orange,
+                        child: Center(
+                          child: Text(
+                            'Name',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 15.0,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                    TableCell(
+                      child: Container(
+                        color: Colors.orange,
+                        child: Center(
+                          child: Text(
+                            'Email',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 15.0,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                    TableCell(
+                      child: Container(
+                        color: Colors.orange,
+                        child: Center(
+                          child: Text(
+                            'phone',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 15.0,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
               ],
             )));
   }
