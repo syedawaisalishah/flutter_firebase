@@ -71,12 +71,10 @@ class _liststudentsState extends State<liststudents> {
                   children: [
                     TableCell(
                       child: Container(
-                        color: Colors.orange,
                         child: Center(
                           child: Text(
                             'Syed Awais Ali Shah',
                             style: TextStyle(
-                              color: Colors.white,
                               fontWeight: FontWeight.bold,
                               fontSize: 15.0,
                             ),
@@ -86,12 +84,10 @@ class _liststudentsState extends State<liststudents> {
                     ),
                     TableCell(
                       child: Container(
-                        color: Colors.orange,
                         child: Center(
                           child: Text(
                             'syedawaisalishah46@gmail.com',
                             style: TextStyle(
-                              color: Colors.white,
                               fontWeight: FontWeight.bold,
                               fontSize: 15.0,
                             ),
@@ -101,12 +97,10 @@ class _liststudentsState extends State<liststudents> {
                     ),
                     TableCell(
                       child: Container(
-                        color: Colors.orange,
                         child: Center(
                           child: Text(
                             '03169691091',
                             style: TextStyle(
-                              color: Colors.white,
                               fontWeight: FontWeight.bold,
                               fontSize: 15.0,
                             ),
