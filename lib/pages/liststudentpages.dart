@@ -23,7 +23,10 @@ class _liststudentsState extends State<liststudents> {
                     child: Container(
                       color: Colors.orange,
                       child: Center(
-                        child: Text('Name', style: TextStyle(color: Colors.white)),
+                        child: Text(
+                          'Name',
+                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                        ),
                       ),
                     ),
                   )
