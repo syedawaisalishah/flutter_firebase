@@ -22,12 +22,7 @@ class _myHomepageState extends State<myHomepage> {
             color: Colors.red,
             textColor: Colors.white,
             onPressed: () {
-              Navigator.push(
-              context,
-              MaterialPageRoute(
-                  builder:(context)=>addstudentpage()
-              )
-              )
+              Navigator.push(context, MaterialPageRoute(builder: (context) => addstudentpage()));
             },
           ),
         ],
