@@ -95,6 +95,6 @@ class _addstudentpageState extends State<addstudentpage> {
           ),
         ),
       ),
-    );
+    ));
   }
 }
