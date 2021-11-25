@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'addstudent.dart';
+import 'updatestudent.dart';
 
 class liststudents extends StatefulWidget {
   _liststudentsState createState() => _liststudentsState();
@@ -102,13 +102,13 @@ class _liststudentsState extends State<liststudents> {
                         children: [
                           IconButton(
                             onPressed: () {
-                              Navigator.push(context, MaterialPageRoute(builder: (context) => addstudentpage()));
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => updatestudents()));
                             },
                             icon: Icon(Icons.edit, color: Colors.orange),
                           ),
                           IconButton(
                             onPressed: () {
-                              Navigator.push(context, MaterialPageRoute(builder: (context) => addstudentpage()));
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => updatestudents()));
                             },
                             icon: Icon(Icons.delete, color: Colors.orange),
                           ),
