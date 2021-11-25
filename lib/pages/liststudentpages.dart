@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'addstudent.dart';
 
 class liststudents extends StatefulWidget {
   _liststudentsState createState() => _liststudentsState();
@@ -103,7 +104,7 @@ class _liststudentsState extends State<liststudents> {
                             onPressed: () {
                               Navigator.push(context, MaterialPageRoute(builder: (context) => addstudentpage()));
                             },
-                            icon: Icon(Icon.edit, color: Colors.orange),
+                            icon: Icon(Icons.edit, color: Colors.orange),
                           )
                         ],
                       ),
