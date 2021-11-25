@@ -95,6 +95,19 @@ class _liststudentsState extends State<liststudents> {
                         ),
                       ),
                     ),
+                    TableCell(
+                      child: Container(
+                        child: Center(
+                          child: Text(
+                            'syedawaisalishah46@gmail.com',
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 15.0,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ],
