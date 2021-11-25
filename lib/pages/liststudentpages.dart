@@ -95,21 +95,6 @@ class _liststudentsState extends State<liststudents> {
                         ),
                       ),
                     ),
-                    TableCell(
-                      child: Row(
-                        child: Container(
-                          child: Center(
-                            child: Text(
-                              '03169691091',
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize: 15.0,
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
                   ],
                 ),
               ],
