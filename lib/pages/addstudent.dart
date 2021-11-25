@@ -25,6 +25,13 @@ class _addstudentpageState extends State<addstudentpage> {
               Container(
                 margin: EdgeInsets.symmetric(horizontal: 20),
                 child: TextFormField(
+                  controller: namecontroller,
+                  validator:(value){
+                    if(value==null or value.isEmpty) {
+                      return 'please enter name'
+                    }
+                    return null;
+                    },
                   autofocus: false,
                   decoration: InputDecoration(
                     labelText: 'Name:',
@@ -32,6 +39,9 @@ class _addstudentpageState extends State<addstudentpage> {
                       fontSize: 20,
                     ),
                     border: OutlineInputBorder(),
+                    errorStyle: TextStyle(
+                      fontSize: 14,
+                    ),
                   ),
                 ),
               )
