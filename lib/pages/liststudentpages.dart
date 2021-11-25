@@ -9,7 +9,7 @@ class _liststudentsState extends State<liststudents> {
   @override
   Widget build(BuildContext context) {
     return Container(
-        margin: EdgeInsets.symmetric(horizontal: 10.0, vertical: 20.0),
+        // margin: EdgeInsets.symmetric(horizontal: 10.0, vertical: 20.0),
         child: SingleChildScrollView(
             scrollDirection: Axis.vertical,
             child: Table(
