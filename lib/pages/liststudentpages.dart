@@ -74,7 +74,7 @@ class _liststudentsState extends State<liststudents> {
                       child: Container(
                         child: Center(
                           child: Text(
-                            'Syed Awais Ali Shah',
+                            'Syed Awais',
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: 15.0,
