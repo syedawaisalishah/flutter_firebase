@@ -27,7 +27,7 @@ class _addstudentpageState extends State<addstudentpage> {
                 child: TextFormField(
                   controller: namecontroller,
                   validator:(value){
-                    if(value==null or value.isEmpty) {
+                    if(value==null || value.isEmpty) {
                       return 'please enter name'
                     }
                     return null;
