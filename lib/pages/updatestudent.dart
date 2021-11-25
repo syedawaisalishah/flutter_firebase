@@ -8,7 +8,7 @@ class _updatestudentsState extends State<updatestudents> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Add Student')),
+      appBar: AppBar(title: Text('Update Student')),
       body: Container(),
     );
   }
