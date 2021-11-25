@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'updatestudent.dart';
+import 'addstudent.dart';
 
 class liststudents extends StatefulWidget {
   _liststudentsState createState() => _liststudentsState();
