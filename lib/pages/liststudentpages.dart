@@ -105,7 +105,13 @@ class _liststudentsState extends State<liststudents> {
                               Navigator.push(context, MaterialPageRoute(builder: (context) => addstudentpage()));
                             },
                             icon: Icon(Icons.edit, color: Colors.orange),
-                          )
+                          ),
+                          IconButton(
+                            onPressed: () {
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => addstudentpage()));
+                            },
+                            icon: Icon(Icons.delete, color: Colors.orange),
+                          ),
                         ],
                       ),
                     ),
