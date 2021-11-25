@@ -26,12 +26,12 @@ class _addstudentpageState extends State<addstudentpage> {
                 margin: EdgeInsets.symmetric(horizontal: 20),
                 child: TextFormField(
                   controller: namecontroller,
-                  validator:(value){
-                    if(value==null || value.isEmpty) {
-                      return 'please enter name'
+                  validator: (value) {
+                    if (value == null || value.isEmpty) {
+                      return 'please enter name';
                     }
                     return null;
-                    },
+                  },
                   autofocus: false,
                   decoration: InputDecoration(
                     labelText: 'Name:',
