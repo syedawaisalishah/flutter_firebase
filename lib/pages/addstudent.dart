@@ -44,7 +44,53 @@ class _addstudentpageState extends State<addstudentpage> {
                     ),
                   ),
                 ),
-              )
+              ),
+              Container(
+                margin: EdgeInsets.symmetric(horizontal: 20),
+                child: TextFormField(
+                  controller: namecontroller,
+                  validator: (value) {
+                    if (value == null || value.isEmpty) {
+                      return 'please enter name';
+                    }
+                    return null;
+                  },
+                  autofocus: false,
+                  decoration: InputDecoration(
+                    labelText: 'Name:',
+                    labelStyle: TextStyle(
+                      fontSize: 20,
+                    ),
+                    border: OutlineInputBorder(),
+                    errorStyle: TextStyle(
+                      fontSize: 14,
+                    ),
+                  ),
+                ),
+              ),
+              Container(
+                margin: EdgeInsets.symmetric(horizontal: 20),
+                child: TextFormField(
+                  controller: namecontroller,
+                  validator: (value) {
+                    if (value == null || value.isEmpty) {
+                      return 'please enter name';
+                    }
+                    return null;
+                  },
+                  autofocus: false,
+                  decoration: InputDecoration(
+                    labelText: 'Name:',
+                    labelStyle: TextStyle(
+                      fontSize: 20,
+                    ),
+                    border: OutlineInputBorder(),
+                    errorStyle: TextStyle(
+                      fontSize: 14,
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
