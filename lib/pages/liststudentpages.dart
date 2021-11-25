@@ -87,7 +87,7 @@ class _liststudentsState extends State<liststudents> {
                       child: Container(
                         child: Center(
                           child: Text(
-                            'syedawaisalishah46@gmail.com',
+                            'syedawais46@gmail.com',
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: 15.0,
